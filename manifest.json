@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "PHUnlock",
+  "version": "1.0",
+  "description": "Unlock PornHub without age verification",
+  "content_scripts": [{
+      "matches": ["*://*.pornhub.org/*"],
+      "js": ["script.js"]
+    }],
+  "permissions": ["activeTab"]
+}
